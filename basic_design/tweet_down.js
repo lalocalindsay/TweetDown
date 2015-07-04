@@ -1,0 +1,1 @@
+alert("Welcome! Tweet Down is a Ruby on Rails app built by Adam Wanninger and Lindsay Tucker. It is meant to be a technical demo that shows off our knowledge of Ruby on Rails, HTML5, CSS3, etc.");

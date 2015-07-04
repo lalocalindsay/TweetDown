@@ -1,0 +1,91 @@
+/* 
+Created by Adam Wanninger and distributed freely 
+under the GNU General Public License v3
+
+This style sheet uses CSS3 elements such as HSLa to 
+create opaque drop down lists, which are created with HTML5
+
+Color code used:
+Red: RGB: 221, 75, 57
+Blue: RGB: 0, 172, 237
+Green: RGB: 0, 191, 143
+Yellow: RGB: 255, 252, 0
+Burgundy: RGB: 168, 36, 0
+
+Color codes taken from:
+http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/
+*/
+
+body {
+    font-family: helvetica, courier;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 252, 0, 1);
+	background-image: url('WhiteHousenightphoto.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-size:cover;
+    margin: 20px;
+    padding: 0;
+}
+
+p {
+    line-height: 21px;
+}
+
+h1 {
+	border-radius: 5px;
+    color: black;
+    background-color: rgba(0, 191, 143, 0.8);
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.5em;
+	border-top-style: solid;
+    border-top-width: 0.5em;
+    border-top-color: rgba(0, 191, 143, 0.8);
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: rgba(0, 191, 143, 0.8);
+}
+/*
+div {
+	color: rgba(0, 0, 0, 1); 
+	background-color: rgba(221, 75, 57, 0.8);
+    display: inline-block;
+    width: 50%;
+    padding: 0px;
+    border: 0px solid navy;
+    margin: 0px;
+}
+*/
+
+#dem_drop_down{
+  border-radius: 5px;
+  background-color: rgba(0, 172, 237, 0.8);
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+}
+
+#rep_drop_down {
+  border-radius: 5px;
+  background-color: rgba(221, 75, 57, 0.8);
+  display: inline-block;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+}
+
+#democrat_menu {
+  border-radius: 5px;
+  background-color: rgba(221, 75, 57, 0.8);
+  display: inline-block;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+}

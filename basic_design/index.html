@@ -1,0 +1,53 @@
+<!-- 
+Created by Adam Wanninger and distributed freely 
+under the GNU General Public License v3
+
+Background:
+"WhiteHousenightphoto" by 350z33 at en.wikipedia. 
+Licensed under CC BY-SA 3.0 via Wikimedia Commons - 
+https://commons.wikimedia.org/wiki/File:WhiteHousenightphoto.JPG#/media/File:WhiteHousenightphoto.JPG
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Tweet Down</title>
+	<link rel="stylesheet" href="index_stylesheet.css">
+    
+</head>
+
+<body>
+
+<h1>Tweet Down</h1>
+
+<p>Tweet Down is a Ruby on Rails app built by me, Adam Wanninger. I built Tweet Down to be a basic (but stylish) Twitter feed for next years presidential candidates.</p>
+
+<div>
+	<p id="dem_drop_down">Democratic Party Candidates<br>
+		<select name="democrat_menu" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO">
+					<option selected="selected">Bernie Sanders</option>
+					<option value="year/1">Hillary Clinton</option>
+					<option value="year/2">Michael Jackson</option>
+		</select>
+	</p>
+</div>
+
+<div>
+	<p id="rep_drop_down">Republican Party Candidates<br>
+        <select name="republican_menu" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO">
+            <option selected="selected">Ted Cruz</option>
+            <option value="URL">Jeb Bush</option>
+            <option value="URL">Jon Stamos</option>
+        </select>
+    </p>
+</div>
+
+
+
+
+</form>
+
+</body>
+
+</html>

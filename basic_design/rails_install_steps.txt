@@ -1,0 +1,15 @@
+Adams recipe for an easy Rails install!
+
+1. Download and run the Rails Installer (Ruby 2.1 or better) from http://railsinstaller.org/en
+2. Download and extract the RubyGems package management framework from https://rubygems.org/pages/download
+3. Open a Windows Shell terminal in the extracted RubyGems directory, and run "ruby setup.rb"
+4. Now you can use the "rails new" command wherever you want
+5. After creating a new Rails app with the "rails new" command, you can start your Rails server by using the "rails server" or "rails s" commands
+6. You can view your Rails app in the browser of your choice at http://localhost:3000/
+
+NOTE:
+If completing the Hello Rails tutorial, you will receive an ExecJS error after 
+you modify routes.rb. You can resolve this error by doing the following:
+
+In your /app/views/layouts/application.html.erb line 5 and 6, change the first parameter application to default.
+Taken from http://stackoverflow.com/questions/28421547/rails-execjsprogramerror-in-pageshome
