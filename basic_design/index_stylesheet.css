@@ -17,7 +17,7 @@ http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/
 */
 
 body {
-    font-family: helvetica, courier;
+    font-family: helvetica, verdana, arial, sans-serif;
     font-size: 14px;
     color: rgba(0, 0, 0, 1);
     background-color: rgba(255, 252, 0, 1);
